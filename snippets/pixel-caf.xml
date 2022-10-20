@@ -11,13 +11,14 @@
   <project path="external/ant-wireless/ant_client" name="external_ant-wireless_ant_client" remote="pixel" />
   <project path="external/ant-wireless/ant_native" name="external_ant-wireless_ant_native" remote="pixel" />
   <project path="external/ant-wireless/ant_service" name="external_ant-wireless_ant_service" remote="pixel" />
+  <project path="external/ant-wireless/antradio-library" name="external_ant-wireless_antradio-library" remote="voidui" />
   <project path="external/ant-wireless/hidl" name="external_ant-wireless_hidl" remote="pixel" />
 
   <!-- Hardware repos -->
   <project path="hardware/qcom-caf/bootctrl" name="hardware_qcom-caf_bootctrl" remote="pixel" />
   <project path="hardware/qcom-caf/thermal" name="hardware_qcom-caf_thermal" remote="pixel" />
   <project path="hardware/qcom-caf/vr" name="hardware_qcom-caf_vr" remote="pixel" />
-  <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="pixel" />
+  <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="voidui" />
 
   <!-- Hardware repos - HALS -->
   <project path="hardware/qcom-caf/common" name="hardware_qcom-caf_common" remote="pixel">
@@ -100,7 +101,7 @@
   <project path="vendor/qcom/opensource/commonsys/dpm" name="vendor_qcom_opensource_commonsys_dpm" remote="pixel" />
   <project path="vendor/qcom/opensource/fm-commonsys" name="vendor_qcom_opensource_fm-commonsys" remote="pixel" />
   <project path="vendor/qcom/opensource/healthd-ext" name="vendor_qcom_opensource_healthd-ext" remote="pixel" />
-  <project path="vendor/qcom/opensource/interfaces" name="vendor_qcom_opensource_interfaces" remote="pixel" />
+  <project path="vendor/qcom/opensource/interfaces" name="vendor_qcom_opensource_interfaces" remote="voidui" />
   <project path="vendor/qcom/opensource/thermal-engine" name="vendor_qcom_opensource_thermal-engine" remote="pixel" />
   <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" remote="pixel" />
   <project path="vendor/qcom/opensource/usb" name="vendor_qcom_opensource_usb" remote="pixel" />
