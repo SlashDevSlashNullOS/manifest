@@ -39,6 +39,12 @@
           fetch="https://gitlab.com/VoidUI"
           revision="aosp-13" />
 
+  <remote name="SlashDevSlashNullOS"
+          fetch="ssh://git@github.com/SlashDevSlashNullOS"
+          revision="aosp-13" />
+
+   
+
   <!-- External repos -->
   <project path="external/boringssl" name="external_boringssl" remote="pixel" />
   <project path="external/cldr" name="external_cldr" remote="pixel" />
