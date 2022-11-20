@@ -2,6 +2,7 @@
 <manifest>
 
   <!-- External repos -->
+  <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="voidui" />
   <project path="external/faceunlock" name="external_faceunlock" remote="voidui-gitlab" />
   <project path="external/bson" name="external_bson" remote="pixel" />
   <project path="external/connectivity" name="external_connectivity" remote="pixel" />
