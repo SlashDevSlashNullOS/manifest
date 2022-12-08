@@ -155,7 +155,8 @@
 
   <!-- Prebuilts -->
   <project path="prebuilts/build-tools" name="prebuilts_build-tools" remote="pixel" clone-depth="1" />
-
+  <project path="prebuilts/clang/host/linux-x86/clang-zyc" name="clang-14" remote="SlashDevSlashNullOS" clone-depth="1" revision="main" />
+  
   <!-- System Repos -->
   <project path="system/bpf" name="system_bpf" remote="pixel" />
   <project path="system/core" name="system_core" remote="voidui" />
