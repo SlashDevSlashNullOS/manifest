@@ -35,6 +35,10 @@
           fetch="https://gitlab.com/VoidUI"
           revision="aosp-13" />
 
+  <remote name="phxos"
+          fetch="ssh://git@github.com/PhxOS"
+          revision="aosp-13" />
+
   <!-- External repos -->
   <project path="external/avb" name="external_avb" remote="pixel" />
   <project path="external/boringssl" name="external_boringssl" remote="pixel" />
@@ -54,7 +58,7 @@
 
   <!-- Framework repos -->
   <project path="frameworks/av" name="frameworks_av" remote="voidui" />
-  <project path="frameworks/base" name="frameworks_base" remote="voidui" />
+  <project path="frameworks/base" name="frameworks_base" remote="phxos" />
   <project path="frameworks/native" name="frameworks_native" remote="voidui" />
   <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="pixel" />
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="pixel" />
@@ -64,7 +68,7 @@
   <!-- General repos -->
   <project path="art" name="art" remote="voidui" />
   <project path="bionic" name="bionic" remote="voidui" />
-  <project path="build/make" name="build_make" remote="voidui">
+  <project path="build/make" name="build_make" remote="phxos">
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -122,7 +126,7 @@
   <project path="packages/apps/CarrierConfig" name="packages_apps_CarrierConfig" remote="pixel" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="pixel" />
   <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="pixel" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="voidui" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="phxos" />
   <project path="packages/apps/Stk" name="packages_apps_Stk" remote="pixel" />
   <project path="packages/apps/Traceur" name="packages_apps_Traceur" remote="pixel" />
   <project path="packages/modules/adb" name="packages_modules_adb" remote="pixel" />
@@ -141,7 +145,8 @@
 
   <!-- Prebuilts -->
   <project path="prebuilts/build-tools" name="prebuilts_build-tools" remote="pixel" clone-depth="1" />
-
+  <project path="prebuilts/clang/host/linux-x86/clang-zyc" name="clang-14" remote="phxos" clone-depth="1" revision="main" />
+  
   <!-- System Repos -->
   <project path="system/apex" name="system_apex" remote="pixel" />
   <project path="system/bpf" name="system_bpf" remote="pixel" />

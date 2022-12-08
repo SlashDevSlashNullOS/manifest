@@ -1,14 +1,11 @@
-![VoidUI_Welcome_logo](https://github.com/VoidUI-Tiramisu/manifest/assets/34755141/34db2823-4fe0-4d21-ae68-d144165aec26)
-
-# VoidUI Tiramisu Project - Android 13.0 - QPR2
-
+# Phoenix OS  Project - Android 13.0
 
 ### Sync ###
 
 ```bash
 
 # Initialize local repository
-repo init -u https://github.com/VoidUI-Tiramisu/manifest -b aosp-13
+repo init -u https://github.com/PhxOS/manifest -b aosp-13
 
 # Sync
 repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
