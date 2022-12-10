@@ -66,7 +66,7 @@
 
   <!-- Framework repos -->
   <project path="frameworks/av" name="frameworks_av" remote="voidui" />
-  <project path="frameworks/base" name="frameworks_base" remote="voidui" />
+  <project path="frameworks/base" name="frameworks_base" remote="SlashDevSlashNullOS" />
   <project path="frameworks/native" name="frameworks_native" remote="voidui" />
   <project path="frameworks/proto_logging" name="frameworks_proto_logging" remote="voidui" />
   <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="pixel" />
