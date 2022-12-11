@@ -39,8 +39,8 @@
           fetch="https://gitlab.com/VoidUI"
           revision="aosp-13" />
 
-  <remote name="SlashDevSlashNullOS"
-          fetch="ssh://git@github.com/SlashDevSlashNullOS"
+  <remote name="phxos"
+          fetch="ssh://git@github.com/PhxOS"
           revision="aosp-13" />
 
    
@@ -66,7 +66,7 @@
 
   <!-- Framework repos -->
   <project path="frameworks/av" name="frameworks_av" remote="voidui" />
-  <project path="frameworks/base" name="frameworks_base" remote="SlashDevSlashNullOS" />
+  <project path="frameworks/base" name="frameworks_base" remote="phxos" />
   <project path="frameworks/native" name="frameworks_native" remote="voidui" />
   <project path="frameworks/proto_logging" name="frameworks_proto_logging" remote="voidui" />
   <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="pixel" />
@@ -77,7 +77,7 @@
   <!-- General repos -->
   <project path="art" name="art" remote="voidui" />
   <project path="bionic" name="bionic" remote="voidui" />
-  <project path="build/make" name="build_make" remote="SlashDevSlashNullOS">
+  <project path="build/make" name="build_make" remote="phxos">
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -155,7 +155,7 @@
 
   <!-- Prebuilts -->
   <project path="prebuilts/build-tools" name="prebuilts_build-tools" remote="pixel" clone-depth="1" />
-  <project path="prebuilts/clang/host/linux-x86/clang-zyc" name="clang-14" remote="SlashDevSlashNullOS" clone-depth="1" revision="main" />
+  <project path="prebuilts/clang/host/linux-x86/clang-zyc" name="clang-14" remote="phxos" clone-depth="1" revision="main" />
   
   <!-- System Repos -->
   <project path="system/bpf" name="system_bpf" remote="pixel" />

@@ -1,6 +1,4 @@
-![VoidUI_Welcome_logo](https://user-images.githubusercontent.com/34755141/174216931-da41afc7-8436-4721-ade4-0dd0d4065c3a.png)
-
-# VoidUI Tiramisu Project - Android 13.0
+# Phoenix OS  Project - Android 13.0
 
 
 ### Sync ###
@@ -8,7 +6,7 @@
 ```bash
 
 # Initialize local repository
-repo init -u https://github.com/SlashDevSlashNullOS/manifest -b aosp-13
+repo init -u https://github.com/PhxOS/manifest -b aosp-13
 
 # Sync
 repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
